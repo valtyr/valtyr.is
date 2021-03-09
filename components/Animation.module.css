@@ -1,0 +1,35 @@
+.anim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  background-color: black;
+
+  z-index: 100;
+}
+
+.fadeOut {
+  animation: anim 0.5s forwards;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anim img {
+  mix-blend-mode: screen;
+  filter: contrast(105%);
+  width: 200px;
+}

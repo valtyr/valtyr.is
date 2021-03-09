@@ -1,0 +1,12 @@
+.link {
+  color: rgb(84, 84, 84);
+  padding: 3px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.link:hover {
+  background-color: black !important;
+  text-decoration: line-through;
+  color: white;
+}

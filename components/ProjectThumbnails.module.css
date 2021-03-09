@@ -1,0 +1,24 @@
+.verkefni {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.verkefni img {
+  width: 33.333333%;
+  float: left;
+  transition: all 0.5s;
+  position: relative;
+}
+
+@media (min-width: 1000px) {
+  .verkefni img {
+    width: 16.666666%;
+  }
+}
+
+@media (max-width: 560px) {
+  .verkefni img {
+    width: 50%;
+  }
+}

@@ -1,0 +1,11 @@
+.root {
+  margin-bottom: 50px;
+}
+
+.profile {
+  width: 120px;
+  border-radius: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
