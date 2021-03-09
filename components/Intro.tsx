@@ -41,11 +41,19 @@ const IntroIS: FunctionComponent = () => {
         mikla notkun í skólum á borð við MR, Verzló og Kvennó.
       </p>
       <p className={styles.ferilskra}>
-        <a href="https://github.com/valtyr/ferilskra/releases/latest/download/ferilskra.pdf">
+        <a
+          href="https://github.com/valtyr/ferilskra/releases/latest/download/ferilskra.pdf"
+          onClick={() => logEvent(Category.LinkClicked, 'Icelandic CV')}
+        >
           Sækja ferilskrá
         </a>
         <br />
-        <a href="https://github.com/valtyr">github.com/valtyr</a>
+        <a
+          href="https://github.com/valtyr"
+          onClick={() => logEvent(Category.LinkClicked, 'Github')}
+        >
+          github.com/valtyr
+        </a>
       </p>
     </>
   );
@@ -87,9 +95,9 @@ const IntroEN: FunctionComponent = () => {
 
       <p className={styles.ferilskra}>
         <a
-          href="https://github.com/valtyr/ferilskra/releases/latest/download/ferilskra.pdf"
+          href="https://github.com/valtyr/ferilskra/releases/latest/download/cv.pdf"
           target="_blank"
-          onClick={() => logEvent(Category.LinkClicked, 'CV')}
+          onClick={() => logEvent(Category.LinkClicked, 'English CV')}
         >
           Download CV
         </a>
