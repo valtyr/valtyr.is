@@ -88,9 +88,8 @@ const IntroEN: FunctionComponent = () => {
 
       <p>
         In 2018 I launched Anorak, an internal social network for students and
-        student organizations in Icelandic high schools. Anorak peaked at #1 on
-        the Icelandic App Store charts and saw wide usage in some of Iceland's
-        biggest high schools.
+        student organizations in Icelandic secondary schools, which reached
+        number one on the Icelandic app store charts.
       </p>
 
       <p className={styles.ferilskra}>
