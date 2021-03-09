@@ -39,19 +39,6 @@
   color: black;
 }
 
-@media (max-width: 560px) {
-  .intro {
-    width: 100%;
-    padding: 30px;
-    box-sizing: border-box;
-    max-width: none;
-  }
-  .intro .logo {
-    margin-top: 0px;
-    margin-bottom: 20px;
-  }
-}
-
 .logo {
   width: 100px;
 }
@@ -75,4 +62,17 @@
 
 .activeLocale {
   color: black;
+}
+
+@media (max-width: 560px) {
+  .intro {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: none;
+  }
+  .logoWrapper {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
 }
