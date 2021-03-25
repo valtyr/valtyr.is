@@ -39,6 +39,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@fullstory/browser@^1.4.9":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@fullstory/browser/-/browser-1.4.9.tgz#e350d779caa1ba56bed22615d9b157efbefa7b47"
+  integrity sha512-h8ihrXT8pGemh5n7CKrukkEbbRIuCi0I/GJKI8DJpGyloI4WNTX5SC8Aihec7ScfK6Fi6ZpiLkGP3hogZqoNWw==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"

@@ -2,11 +2,12 @@ import Head from 'next/head';
 import { useEffect } from 'react';
 import '../styles/globals.css';
 
-import { initGA } from '../utils/analytics';
+import { initGA, initFS } from '../utils/analytics';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     initGA();
+    initFS();
   }, []);
 
   return (
