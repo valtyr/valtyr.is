@@ -1,4 +1,5 @@
 import ReactGA from 'react-ga';
+import * as FullStory from '@fullstory/browser';
 
 export enum Category {
   LinkClicked = 'Link Clicked',
@@ -21,4 +22,8 @@ export const logException = (description = '', fatal = false) => {
   if (description) {
     ReactGA.exception({ description, fatal });
   }
+};
+
+export const initFS = () => {
+  FullStory.init({ orgId: '11S42A' });
 };
