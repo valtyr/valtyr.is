@@ -63,7 +63,7 @@ const IntroEN: FunctionComponent = () => {
   return (
     <>
       <h1>Hi I'm Valtýr Örn</h1>
-      <p>I'm a full-stack programmer, UX designer and student.</p>
+      <p>I'm a full-stack programmer and UX designer.</p>
       <p>
         I graduated from the{' '}
         <span className={styles.institution}>Reykjavík Junior College</span> in
